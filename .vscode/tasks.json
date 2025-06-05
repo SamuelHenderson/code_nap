@@ -4,18 +4,18 @@
         {
             "label": "cargo build",
             "dependsOn": [
-                "cargo build example"
+                "cargo build code_nap"
             ]
         },
         {
             "label": "cargo build release",
             "dependsOn": [
-                "cargo build example release"
+                "cargo build code_nap release"
             ]
         },
 
         {
-            "label": "cargo build example",
+            "label": "cargo build code_nap",
             "type": "cargo",
             "command": "build",
             "args": [
@@ -28,7 +28,7 @@
             },
         },
         {
-            "label": "cargo build example release",
+            "label": "cargo build code_nap release",
             "type": "cargo",
             "command": "build",
             "args": [
